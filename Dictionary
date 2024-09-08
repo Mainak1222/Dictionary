@@ -1,0 +1,11 @@
+print("mainak")
+dict["age"]=11
+dict.update({"school":"abc"})
+dict["gender"]="male"
+dict.update({"fav_color":"red"})
+dict.pop("age")
+dict.popitem()
+del dict ['gender']
+dict.clear()
+del dict
+print(dict)
